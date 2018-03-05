@@ -8,7 +8,7 @@ import funcoes
 funcoes.bemvindo()
 
 #Opcoes do Usuario
-opcao = int(raw_input())
+opcao = int(input("digite a opcao "))
 print("Selecionou a ", opcao)
 
 
