@@ -5,15 +5,15 @@ def bemvindo():
 	print("1  Adicionar um novo contato")
         print("2  Listar os contatos da agenda")
 #comentario 95lucasrm
-
+#comentario alex
 #Funcoes do processo
 def adicionar():
 	print("Adicionar um registro")
 	# agenda = open("agendatelefonica.csv",'a')
 	# nome = input("Nome do Contato:")
-	# telefone = input("Digite o telefone:")
-	# print("Contato salvo com nome:",nome," e numero",telefone)
-	# agenda.write(nome)
+	  telefone = input("Digite o telefone:")
+	  print("Contato salvo com nome:",nome," e numero",telefone)
+	  agenda.write(nome)
 	# agenda.write(",")
 	# agenda.write(telefone)
 	# agenda.write(",")
